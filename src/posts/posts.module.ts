@@ -12,6 +12,7 @@ import { PostComponent } from './post/post.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [PostComponent, PostsComponent]
 })
 export class PostsModule { }
